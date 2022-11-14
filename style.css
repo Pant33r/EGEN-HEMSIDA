@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto;
+  background-color: rgb(122, 119, 119);
+  background: #3e3e3e;
+  font-family: sans-serif;
+}
+
+.spelarlayout {
+  margin: 0;
+  display: grid;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  size: 10mm;
+  
+}
+
+h2 {
+  text-align: center;
+
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  
+}
+
+.white {
+  background-color: white;
+}
+
+
+.topnav {
+  background-color: rgb(57, 57, 57);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #d5d5d5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(60, 156, 50);
+  color: rgb(230, 230, 230);
+}
+
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+}
+
+** a {
+  text-decoration: none;
+  color: rgba(244, 244, 244, 0.769);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: rgb(122, 118, 118);
+}
+
+
+.pimg {
+  height: 600px
+  width 100%
+}
